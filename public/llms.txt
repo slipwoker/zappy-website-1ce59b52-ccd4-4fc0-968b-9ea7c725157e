@@ -1,0 +1,47 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+גליל טכנולוגיות מתכננת מכונות תעשייתיות ומערכות בקרה משולבות מקצה לקצה. פתרונות מכניים חכמים, מותאמים אישית, מהרעיון ועד למוצר הסופי. גלו איך אנחנו הופכים חזון הנדסי למציאות.
+
+### פתרונות
+https://example.com/solutions
+מערכות אוטומציה תעשייתית ומתקנים משולבי בקרה שתוכננו במיוחד עבורכם. גליל טכנולוגיות מספקת פתרונות מכניים מתקדמים שמגבירים יעילות, מפחיתים עלויות ומניבים תוצאות מדידות. בחנו את הפתרונות שלנו עכשיו.
+
+### אודות
+https://example.com/about
+גליל טכנולוגיות נולדה מתוך תשוקה לחבר בין חשיבה הנדסית יצירתית לביצוע מעשי מושלם. הכירו את הצוות, הערכים והחזון שהופכים כל פרויקט מכני למופת של דיוק וחדשנות תעשייתית.
+
+### צור קשר
+https://example.com/contact
+יש לכם אתגר הנדסי? צוות המומחים של גליל טכנולוגיות כאן בשבילכם. צרו קשר עוד היום לייעוץ ראשוני ללא התחייבות ונתחיל לתכנן יחד את מערכת האוטומציה או המכונה התעשייתית שתשנה את העסק שלכם.
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
