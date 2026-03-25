@@ -1,47 +1,66 @@
-# Business — Generative Engine Optimization Map
+# גליל טכנולוגיות — Generative Engine Optimization Map
+
+> A mechanical engineering company specializing in the design of machines and integrated control systems, offering end-to-end smart mechanical solutions — from initial concept through to the final product. The company bridges creative engineering thinking with practical execution, delivering intelligent, custom-built mechanical systems for industrial or technical clients.
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://galiltechnologies.zappy5.app
 גליל טכנולוגיות מתכננת מכונות תעשייתיות ומערכות בקרה משולבות מקצה לקצה. פתרונות מכניים חכמים, מותאמים אישית, מהרעיון ועד למוצר הסופי. גלו איך אנחנו הופכים חזון הנדסי למציאות.
 
 ### פתרונות
-https://example.com/solutions
+https://galiltechnologies.zappy5.app/solutions
 מערכות אוטומציה תעשייתית ומתקנים משולבי בקרה שתוכננו במיוחד עבורכם. גליל טכנולוגיות מספקת פתרונות מכניים מתקדמים שמגבירים יעילות, מפחיתים עלויות ומניבים תוצאות מדידות. בחנו את הפתרונות שלנו עכשיו.
 
 ### אודות
-https://example.com/about
+https://galiltechnologies.zappy5.app/about
 גליל טכנולוגיות נולדה מתוך תשוקה לחבר בין חשיבה הנדסית יצירתית לביצוע מעשי מושלם. הכירו את הצוות, הערכים והחזון שהופכים כל פרויקט מכני למופת של דיוק וחדשנות תעשייתית.
 
 ### צור קשר
-https://example.com/contact
+https://galiltechnologies.zappy5.app/contact
 יש לכם אתגר הנדסי? צוות המומחים של גליל טכנולוגיות כאן בשבילכם. צרו קשר עוד היום לייעוץ ראשוני ללא התחייבות ונתחיל לתכנן יחד את מערכת האוטומציה או המכונה התעשייתית שתשנה את העסק שלכם.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://galiltechnologies.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://galiltechnologies.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://galiltechnologies.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About גליל טכנולוגיות
+A mechanical engineering company specializing in the design of machines and integrated control systems, offering end-to-end smart mechanical solutions — from initial concept through to the final product. The company bridges creative engineering thinking with practical execution, delivering intelligent, custom-built mechanical systems for industrial or technical clients.
+
+## Services/Products
+- תכנון מכאני של מכונות
+- תכנון מתקנים משולבי בקרה
+- פתרונות מכאניים חכמים
+- ליווי מהרעיון עד למוצר הסופי
+
+## Target Audience
+- מנהלי אוטומציה תעשייתית
+- מהנדסי מכונות
+- חברות ייצור
+- מרכזי מחקר ופיתוח
+
+## Industry
+הנדסה מכנית ואוטומציה תעשייתית
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://galiltechnologies.zappy5.app/sitemap.xml
+- **Robots.txt**: https://galiltechnologies.zappy5.app/robots.txt
