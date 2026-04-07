@@ -8106,6 +8106,159 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
+.galil-domains-section {
+  background: linear-gradient(180deg, #FFFFFF 0%, #EEF2F5 100%);
+  color: var(--text-dark);
+  padding: 96px 0 96px;
+  direction: rtl;
+  position: relative;
+}
+
+.galil-domains-section .galil-domains-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.galil-domains-section .galil-domains-header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.galil-domains-section .galil-domains-eyebrow {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--primary);
+  background: rgba(30, 94, 255, 0.07);
+  border: 1px solid rgba(30, 94, 255, 0.18);
+  border-radius: 2px;
+  padding: 4px 14px;
+  margin-bottom: 20px;
+}
+
+.galil-domains-section .galil-domains-title {
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #173B67;
+  margin: 0 0 16px;
+  letter-spacing: -0.01em;
+}
+
+.galil-domains-section .galil-domains-subtitle {
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--text-muted);
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.galil-domains-section .galil-domains-grid {
+  display: grid;
+  grid-template-columns: 1fr 1px 1fr;
+  gap: 0 48px;
+  align-items: start;
+  border-top: 1px solid var(--border-light);
+}
+
+.galil-domains-section .galil-domains-divider {
+  width: 1px;
+  background: var(--border-light);
+  align-self: stretch;
+  min-height: 100%;
+}
+
+.galil-domains-section .galil-domains-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.galil-domains-section .galil-domain-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 28px 8px 24px;
+  border-bottom: 1px solid var(--border-light);
+  border-radius: 2px;
+  transition: background-color 0.2s ease;
+  cursor: default;
+}
+
+.galil-domains-section .galil-domain-item:hover {
+  background-color: rgba(30, 94, 255, 0.03);
+}
+
+.galil-domains-section .galil-domain-item--last {
+  border-bottom: none;
+}
+
+.galil-domains-section .galil-domain-number {
+  font-family: 'Rubik', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--primary);
+  opacity: 0.55;
+  min-width: 28px;
+  padding-top: 4px;
+  flex-shrink: 0;
+}
+
+.galil-domains-section .galil-domain-content {
+  flex: 1;
+}
+
+.galil-domains-section .galil-domain-heading {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: #173B67;
+  margin: 0 0 8px;
+  letter-spacing: -0.005em;
+}
+
+.galil-domains-section .galil-domain-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+.galil-domains-section {
+  padding: 56px 0 56px;
+}
+
+.galil-domains-section .galil-domains-container {
+  padding: 0 20px;
+}
+
+.galil-domains-section .galil-domains-grid {
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+
+.galil-domains-section .galil-domains-divider {
+  display: none;
+}
+
+.galil-domains-section .galil-domain-item--last {
+  border-bottom: 1px solid var(--border-light);
+}
+
+.galil-domains-section .galil-domains-title {
+  font-size: 24px;
+}
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
