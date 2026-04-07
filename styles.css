@@ -7865,6 +7865,247 @@ body.accessibility-widget-visible ._access-menu {
   opacity: 0.75;
 }
 
+/* AI-generated section */
+/* ===== GALIL DOMAINS SECTION ===== */
+.galil-domains-section {
+  background: #f7f8fc;
+  padding: 90px 20px;
+  font-family: system-ui, sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+/* Container */
+.galil-domains-container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+/* ===== HEADER ===== */
+.galil-domains-header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.galil-domains-eyebrow {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--primary, #1E5EFF);
+  background: rgba(30, 94, 255, 0.08);
+  border: 1px solid rgba(30, 94, 255, 0.18);
+  border-radius: 30px;
+  padding: 5px 16px;
+  margin-bottom: 18px;
+}
+
+.galil-domains-title {
+  font-size: clamp(1.9rem, 3.5vw, 2.7rem);
+  font-weight: 800;
+  color: #173B67;
+  margin: 0 0 16px 0;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+
+.galil-domains-subtitle {
+  font-size: 1.05rem;
+  color: #5a6a82;
+  max-width: 580px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* ===== GRID ===== */
+.galil-domains-grid {
+  display: grid;
+  grid-template-columns: 1fr 1px 1fr;
+  gap: 0 40px;
+  align-items: start;
+}
+
+/* Vertical Divider */
+.galil-domains-divider {
+  background: linear-gradient(to bottom, transparent 0%, #cbd5e1 15%, #cbd5e1 85%, transparent 100%);
+  width: 1px;
+  align-self: stretch;
+  min-height: 100%;
+}
+
+/* Column */
+.galil-domains-col {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== DOMAIN ITEM ===== */
+.galil-domain-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 26px 12px 26px 8px;
+  border-bottom: 1px solid #e2e8f0;
+  border-radius: 8px;
+  cursor: default;
+  transition: background 0.22s ease, box-shadow 0.22s ease, transform 0.18s ease;
+  outline: none;
+}
+
+.galil-domain-item:last-child,
+.galil-domain-item.galil-domain-item--last {
+  border-bottom: none;
+}
+
+.galil-domain-item:hover,
+.galil-domain-item:focus-visible {
+  background: #ffffff;
+  box-shadow: 0 4px 18px rgba(30, 94, 255, 0.07), 0 1px 4px rgba(0,0,0,0.04);
+  transform: translateY(-2px);
+  border-radius: 10px;
+}
+
+.galil-domain-item:focus-visible {
+  outline: 2px solid var(--primary, #1E5EFF);
+  outline-offset: 2px;
+}
+
+/* Number Badge */
+.galil-domain-number {
+  flex-shrink: 0;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  color: rgba(30, 94, 255, 0.45);
+  background: rgba(30, 94, 255, 0.06);
+  border-radius: 6px;
+  padding: 4px 8px;
+  margin-top: 3px;
+  min-width: 36px;
+  text-align: center;
+  line-height: 1.4;
+  font-variant-numeric: tabular-nums;
+  transition: color 0.2s ease, background 0.2s ease;
+}
+
+.galil-domain-item:hover .galil-domain-number,
+.galil-domain-item:focus-visible .galil-domain-number {
+  color: var(--primary, #1E5EFF);
+  background: rgba(30, 94, 255, 0.12);
+}
+
+/* Content */
+.galil-domain-content {
+  flex: 1;
+}
+
+.galil-domain-heading {
+  font-size: 1.02rem;
+  font-weight: 700;
+  color: #173B67;
+  margin: 0 0 8px 0;
+  line-height: 1.4;
+  transition: color 0.2s ease;
+}
+
+.galil-domain-item:hover .galil-domain-heading,
+.galil-domain-item:focus-visible .galil-domain-heading {
+  color: var(--primary, #1E5EFF);
+}
+
+.galil-domain-text {
+  font-size: 0.895rem;
+  color: #64748b;
+  line-height: 1.75;
+  margin: 0;
+}
+
+/* ===== RESPONSIVE ===== */
+
+/* Medium screens */
+@media (max-width: 900px) {
+  .galil-domains-section {
+    padding: 70px 16px;
+  }
+
+  .galil-domains-grid {
+    grid-template-columns: 1fr 1px 1fr;
+    gap: 0 24px;
+  }
+
+  .galil-domain-item {
+    gap: 12px;
+    padding: 22px 8px 22px 4px;
+  }
+
+  .galil-domain-heading {
+    font-size: 0.95rem;
+  }
+
+  .galil-domain-text {
+    font-size: 0.85rem;
+  }
+}
+
+/* Mobile — stack columns */
+@media (max-width: 640px) {
+  .galil-domains-section {
+    padding: 56px 16px;
+  }
+
+  .galil-domains-header {
+    margin-bottom: 44px;
+  }
+
+  .galil-domains-title {
+    font-size: 1.65rem;
+  }
+
+  .galil-domains-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .galil-domains-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .galil-domains-divider {
+    display: none;
+  }
+
+  .galil-domain-item {
+    padding: 20px 4px;
+    gap: 14px;
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .galil-domain-item.galil-domain-item--last {
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  /* Last item in second column on mobile — remove last border */
+  .galil-domains-col:last-child .galil-domain-item.galil-domain-item--last {
+    border-bottom: none;
+  }
+
+  .galil-domain-number {
+    font-size: 10px;
+    padding: 3px 7px;
+    min-width: 32px;
+  }
+
+  .galil-domain-heading {
+    font-size: 0.97rem;
+  }
+
+  .galil-domain-text {
+    font-size: 0.875rem;
+  }
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
