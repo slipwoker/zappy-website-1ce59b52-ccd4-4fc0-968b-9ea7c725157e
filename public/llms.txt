@@ -1,6 +1,4 @@
-# גליל טכנולוגיות — Generative Engine Optimization Map
-
-> A mechanical engineering company specializing in the design of machines and integrated control systems, offering end-to-end smart mechanical solutions — from initial concept through to the final product. The company bridges creative engineering thinking with practical execution, delivering intelligent, custom-built mechanical systems for industrial or technical clients.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -40,24 +38,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About גליל טכנולוגיות
-A mechanical engineering company specializing in the design of machines and integrated control systems, offering end-to-end smart mechanical solutions — from initial concept through to the final product. The company bridges creative engineering thinking with practical execution, delivering intelligent, custom-built mechanical systems for industrial or technical clients.
-
-## Services/Products
-- תכנון מכאני של מכונות
-- תכנון מתקנים משולבי בקרה
-- פתרונות מכאניים חכמים
-- ליווי מהרעיון עד למוצר הסופי
-
-## Target Audience
-- מנהלי אוטומציה תעשייתית
-- מהנדסי מכונות
-- חברות ייצור
-- מרכזי מחקר ופיתוח
-
-## Industry
-הנדסה מכנית ואוטומציה תעשייתית
-
+## About Business
 ---
 
 # Additional Resources
