@@ -333,7 +333,7 @@
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="046705020" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
@@ -736,7 +736,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '046705020';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -783,70 +783,17 @@
 </script>
   
   <main>
-    <section class="contact-intro-section" data-layout-spec="צור קשר-intro" dir="rtl">
-  <div class="contact-intro-container">
-    <!-- Text Column (START = RIGHT in RTL) -->
-    <div class="contact-intro-text">
-      <span class="contact-intro-label">צרו קשר</span>
-      <h1 class="contact-intro-heading">נשמח לשמוע על<br>האתגר ההנדסי שלכם</h1>
-      <p class="contact-intro-lead">בין אם מדובר ברעיון ראשוני, בשדרוג מכונה קיימת, בתכנון מתקן חדש או בפתרון אוטומציה משולב בקרה — אנחנו כאן כדי להפוך את הרעיון שלכם למציאות הנדסית.</p>
-      <p class="contact-intro-body">ב<strong>גליל טכנולוגיות</strong> אנו מאמינים שכל פרויקט מתחיל בשיחה. אל תחכו לתכנית מוגמרת — שלבי הרעיון המוקדמים הם בדיוק המקום שבו אנחנו עובדים הכי טוב.</p>
-      <div class="contact-intro-cta-row">
-        <a href="#contact-details" class="btn-primary contact-intro-btn">
-          <span>דברו איתנו</span>
-          <svg data-element-type="icon" data-icon-type="svg" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="transform: scaleX(-1);">
-            <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
-          </svg>
-        </a>
-      </div>
-      <ul class="contact-intro-features">
-        <li>
-          <svg data-element-type="icon" data-icon-type="svg" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="8" cy="8" r="7" stroke="var(--primary)" stroke-width="1.5"></circle>
-            <path d="M5 8.5L7 10.5L11 6" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-          </svg>
-          <span>תכנון מכאני של מכונות ומתקנים תעשייתיים</span>
-        </li>
-        <li>
-          <svg data-element-type="icon" data-icon-type="svg" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="8" cy="8" r="7" stroke="var(--primary)" stroke-width="1.5"></circle>
-            <path d="M5 8.5L7 10.5L11 6" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-          </svg>
-          <span>מערכות בקרה ואוטומציה תעשייתית משולבות</span>
-        </li>
-        <li>
-          <svg data-element-type="icon" data-icon-type="svg" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="8" cy="8" r="7" stroke="var(--primary)" stroke-width="1.5"></circle>
-            <path d="M5 8.5L7 10.5L11 6" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-          </svg>
-          <span>ליווי מלא מהרעיון ועד למוצר הסופי</span>
-        </li>
-      </ul>
-    </div>
-    <!-- Image Column (END = LEFT in RTL) -->
-    <div class="contact-intro-image-col">
-      <div class="contact-intro-image-frame">
-        <img data-placeholder="contact-intro-image-1" data-context="Clean, precise engineering drawing or technical blueprint spread on a drafting table in a professional mechanical engineering workshop. The drawing shows detailed machine schematics with measurement annotations, section views, and assembly details. Soft natural light from the side illuminates the paper. Nearby are precision tools — calipers, a ruler, and a mechanical pencil. The mood is calm, expert, and technical. Flat lay or slight angle perspective. No people. Industrial and professional aesthetic." width="600" height="480" src="/assets/site-contact-intro-image-1.webp" alt="שרטוט הנדסי מכאני על שולחן תכנון מקצועי">
-        <div class="contact-intro-image-badge">
-          <span class="badge-number">360°</span>
-          <span class="badge-text">פתרון הנדסי מלא</span>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Bottom divider: thin industrial-blue line -->
-  <div class="contact-intro-divider-line"></div>
-</section>
+    
 
-<section class="contact-contact-details-section" data-layout-spec="צור קשר-contact-details" dir="rtl">
+<section class="contact-contact-details-section" data-layout-spec="צור קשר-contact-details" dir="rtl" id="zappy-section-1">
   <div class="contact-details-container">
     <div class="contact-details-header">
       <div class="contact-details-accent-line"></div>
       <h2 class="contact-details-title">צרו קשר עם גליל טכנולוגיות</h2>
       <p class="contact-details-subtitle">אנו זמינים לכל שאלה בנושא תכנון מכאני של מכונות ופתרונות אוטומציה תעשייתית</p>
     </div>
-    <div class="contact-details-grid">
-      <article class="contact-detail-card">
+    <div class="contact-details-grid zappy-preserve-css-grid" id="zappy-auto-grid-1775991627517-rbjyr5" data-zappy-auto-grid="true" data-original-item-width="282" data-original-gap="24px" style="display: grid; --zappy-grid-cols: repeat(4, minmax(0, 1fr)); grid-template-columns: repeat(4, minmax(0, 1fr)); align-items: stretch !important;" data-zappy-explicit-columns="true">
+      <article class="contact-detail-card" data-grid-item-index="0">
         <div class="contact-detail-icon-wrap">
           <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.99 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.92 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
@@ -854,11 +801,11 @@
         </div>
         <div class="contact-detail-content">
           <h3 class="contact-detail-label">טלפון</h3>
-          <a href="tel:[business_phone]" class="contact-detail-value">[business_phone]</a>
-          <p class="contact-detail-note">ימים א׳–ה׳, 08:00–17:00</p>
+          <p><a href="tel:046705020" class="contact-detail-value">046705020</a>
+          </p>
         </div>
       </article>
-      <article class="contact-detail-card">
+      <article class="contact-detail-card" data-grid-item-index="1">
         <div class="contact-detail-icon-wrap">
           <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
@@ -867,11 +814,11 @@
         </div>
         <div class="contact-detail-content">
           <h3 class="contact-detail-label">דואר אלקטרוני</h3>
-          <a href="mailto:[business_email]" class="contact-detail-value">[business_email]</a>
-          <p class="contact-detail-note">מענה תוך יום עסקים אחד</p>
+          <p><a href="mailto:meir@galilt.com" class="contact-detail-value">meir@galilt.com</a>
+          </p>
         </div>
       </article>
-      <article class="contact-detail-card">
+      <article class="contact-detail-card" data-grid-item-index="2">
         <div class="contact-detail-icon-wrap">
           <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
@@ -880,11 +827,11 @@
         </div>
         <div class="contact-detail-content">
           <h3 class="contact-detail-label">אזור שירות</h3>
-          <span class="contact-detail-value">[business_address]</span>
-          <p class="contact-detail-note">פעילות בכל רחבי הארץ</p>
-        </div>
+          <p><span class="contact-detail-value">מפעלים אזוריים גרנות</span>
+          
+        </p></div>
       </article>
-      <article class="contact-detail-card">
+      <article class="contact-detail-card" data-grid-item-index="3">
         <div class="contact-detail-icon-wrap">
           <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <circle cx="12" cy="12" r="10"></circle>
@@ -893,8 +840,8 @@
         </div>
         <div class="contact-detail-content">
           <h3 class="contact-detail-label">זמן תגובה</h3>
-          <span class="contact-detail-value">עד 24 שעות</span>
-          <p class="contact-detail-note">הצעת מחיר תוך 3 ימי עסקים</p>
+          <p><span class="contact-detail-value">עד 24 שעות</span>
+          </p>
         </div>
       </article>
     </div>
@@ -988,8 +935,8 @@
             <h3 class="cfs-aside-title">יצירת קשר ישיר</h3>
             <p class="cfs-aside-text">מוזמנים ליצור קשר גם ישירות:</p>
             <div class="cfs-contact-links">
-              <a href="tel:[business_phone]" class="cfs-contact-link"><i class="fa fa-phone" aria-hidden="true"></i>[business_phone]</a>
-              <a href="mailto:[business_email]" class="cfs-contact-link"><i class="fa fa-envelope" aria-hidden="true"></i>[business_email]</a>
+              <a href="tel:046705020" class="cfs-contact-link"><i class="fa fa-phone" aria-hidden="true"></i>046705020</a>
+              <a href="mailto:meir@galilt.com" class="cfs-contact-link"><i class="fa fa-envelope" aria-hidden="true"></i>meir@galilt.com</a>
             </div>
           </div>
         </div>
@@ -1090,7 +1037,7 @@
 </section>
   </main>
   
-  <footer class="site-footer"><div class="footer-top"><div class="footer-container"><div class="footer-grid"><div class="footer-col footer-col--brand"><a href="/" class="footer-logo-link"><img src="/assets/business-logo.webp" alt="גליל טכנולוגיות" class="logo"></a><p class="footer-tagline">הנדסה מכנית ואוטומציה תעשייתית — פתרונות מדויקים לתעשייה המודרנית.</p><div class="footer-social"><a href="[facebook_handle]" aria-label="Facebook" class="social-link"><i class="fab fa-facebook-f"></i></a><a href="[instagram_handle]" aria-label="Instagram" class="social-link"><i class="fab fa-instagram"></i></a><a href="[whatsapp_handle]" aria-label="WhatsApp" class="social-link"><i class="fab fa-whatsapp"></i></a></div></div><div class="footer-col footer-col--nav"><h3 class="footer-heading"><span class="footer-heading-accent"></span>ניווט מהיר</h3><ul class="footer-links"><li><a href="/solutions" class="footer-link"><i class="fas fa-chevron-left footer-link-icon"></i>פתרונות</a></li><li><a href="/about" class="footer-link"><i class="fas fa-chevron-left footer-link-icon"></i>אודות</a></li><li><a href="/contact" class="footer-link"><i class="fas fa-chevron-left footer-link-icon"></i>צור קשר</a></li></ul></div><div class="footer-col footer-col--contact"><h3 class="footer-heading"><span class="footer-heading-accent"></span>צור קשר</h3><ul class="footer-contact-list"><li class="footer-contact-item"><span class="contact-icon-wrap"><i class="fas fa-envelope"></i></span><a href="mailto:[business_email]" class="footer-link">[business_email]</a></li><li class="footer-contact-item"><span class="contact-icon-wrap"><i class="fas fa-phone-alt"></i></span><a href="tel:[business_phone]" class="footer-link">[business_phone]</a></li><li class="footer-contact-item"><a href="/"><span class="contact-icon-wrap"><i class="fas fa-map-marker-alt"></i></span><span class="footer-address">[business_address]</span></a></li></ul></div><div class="footer-col footer-col--badge"><div class="footer-badge"><div class="badge-icon"><i class="fas fa-cogs"></i></div><div class="badge-text"><span class="badge-title">דיוק הנדסי</span><span class="badge-sub">ISO מוסמך</span></div></div><div class="footer-badge"><div class="badge-icon"><i class="fas fa-industry"></i></div><div class="badge-text"><span class="badge-title">אוטומציה תעשייתית</span><span class="badge-sub">פתרונות מותאמים</span></div></div></div></div></div></div><div class="footer-bottom"><div class="footer-container"><div class="footer-bottom-inner"><p class="footer-copyright">© 2026 גליל טכנולוגיות. כל הזכויות שמורות.</p><div class="footer-bottom-links"><a href="/privacy" class="footer-legal-link">מדיניות פרטיות</a><span class="footer-divider">|</span><a href="/terms" class="footer-legal-link">תנאי שימוש</a><span class="footer-divider">|</span><a href="/accessibility" class="footer-legal-link">נגישות</a><span class="footer-divider">|</span><a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a></div></div></div></div></footer>
+  <footer class="site-footer"><div class="footer-top"><div class="footer-container"><div class="footer-grid"><div class="footer-col footer-col--brand"><a href="/" class="footer-logo-link"><img src="/assets/business-logo.webp" alt="גליל טכנולוגיות" class="logo"></a><p class="footer-tagline">הנדסה מכנית ואוטומציה תעשייתית — פתרונות מדויקים לתעשייה המודרנית.</p><div class="footer-social"><a href="#" aria-label="Facebook" class="social-link" style="display:none !important;"><i class="fab fa-facebook-f"></i></a><a href="#" aria-label="Instagram" class="social-link" style="display:none !important;"><i class="fab fa-instagram"></i></a><a href="#" aria-label="WhatsApp" class="social-link" style="display:none !important;"><i class="fab fa-whatsapp"></i></a></div></div><div class="footer-col footer-col--nav"><h3 class="footer-heading"><span class="footer-heading-accent"></span>ניווט מהיר</h3><ul class="footer-links"><li><a href="/solutions" class="footer-link"><i class="fas fa-chevron-left footer-link-icon"></i>פתרונות</a></li><li><a href="/about" class="footer-link"><i class="fas fa-chevron-left footer-link-icon"></i>אודות</a></li><li><a href="/contact" class="footer-link"><i class="fas fa-chevron-left footer-link-icon"></i>צור קשר</a></li></ul></div><div class="footer-col footer-col--contact"><h3 class="footer-heading"><span class="footer-heading-accent"></span>צור קשר</h3><ul class="footer-contact-list"><li class="footer-contact-item"><span class="contact-icon-wrap"><i class="fas fa-envelope"></i></span><a href="mailto:meir@galilt.com" class="footer-link">meir@galilt.com</a></li><li class="footer-contact-item"><span class="contact-icon-wrap"><i class="fas fa-phone-alt"></i></span><a href="tel:046705020" class="footer-link">046705020</a></li><li class="footer-contact-item"><a href="/"><span class="contact-icon-wrap"><i class="fas fa-map-marker-alt"></i></span><span class="footer-address">מפעלים אזוריים גרנות</span></a></li></ul></div><div class="footer-col footer-col--badge"><div class="footer-badge"><div class="badge-icon"><i class="fas fa-cogs"></i></div><div class="badge-text"><span class="badge-title">דיוק הנדסי</span><span class="badge-sub">ISO מוסמך</span></div></div><div class="footer-badge"><div class="badge-icon"><i class="fas fa-industry"></i></div><div class="badge-text"><span class="badge-title">אוטומציה תעשייתית</span><span class="badge-sub">פתרונות מותאמים</span></div></div></div></div></div></div><div class="footer-bottom"><div class="footer-container"><div class="footer-bottom-inner"><p class="footer-copyright">© 2026 גליל טכנולוגיות. כל הזכויות שמורות.</p><div class="footer-bottom-links"><a href="/privacy" class="footer-legal-link">מדיניות פרטיות</a><span class="footer-divider">|</span><a href="/terms" class="footer-legal-link">תנאי שימוש</a><span class="footer-divider">|</span><a href="/accessibility" class="footer-legal-link">נגישות</a><span class="footer-divider">|</span><a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a></div></div></div></div></footer>
   
   <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
