@@ -8684,6 +8684,295 @@ nav.navbar .sub-menu li a {
 .navbar a:not(.nav-cta-btn):hover {
   color: #1E5EFF !important;
 }
+
+/* FIX: transparent-navbar-page-contrast
+   Page-scoped initial navbar contrast for transparent navbars. */
+body:has(main > .index-hero-section) .navbar:not(.scrolled) .nav-menu > li > a:not(.nav-cta-btn),
+body:has(main > .index-hero-section) .navbar:not(.scrolled) .nav-menu > .nav-item > a:not(.nav-cta-btn),
+body:has(main > .index-hero-section) .navbar:not(.scrolled) .nav-link:not(.nav-cta-btn) {
+  color: #FAFAF8 !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.35);
+}
+
+body:has(main > .solutions-integrations-section) .navbar:not(.scrolled) .nav-menu > li > a:not(.nav-cta-btn),
+body:has(main > .solutions-integrations-section) .navbar:not(.scrolled) .nav-menu > .nav-item > a:not(.nav-cta-btn),
+body:has(main > .solutions-integrations-section) .navbar:not(.scrolled) .nav-link:not(.nav-cta-btn) {
+  color: #FAFAF8 !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.35);
+}
+
+body:has(main > .about-overview-section) .navbar:not(.scrolled) .nav-menu > li > a:not(.nav-cta-btn),
+body:has(main > .about-overview-section) .navbar:not(.scrolled) .nav-menu > .nav-item > a:not(.nav-cta-btn),
+body:has(main > .about-overview-section) .navbar:not(.scrolled) .nav-link:not(.nav-cta-btn) {
+  color: #1F2933 !important;
+  text-shadow: none;
+}
+
+body:has(main > .contact-contact-details-section) .navbar:not(.scrolled) .nav-menu > li > a:not(.nav-cta-btn),
+body:has(main > .contact-contact-details-section) .navbar:not(.scrolled) .nav-menu > .nav-item > a:not(.nav-cta-btn),
+body:has(main > .contact-contact-details-section) .navbar:not(.scrolled) .nav-link:not(.nav-cta-btn) {
+  color: #FAFAF8 !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.35);
+}
+
+body:has(main > .legal-page-content) .navbar:not(.scrolled) .nav-menu > li > a:not(.nav-cta-btn),
+body:has(main > .legal-page-content) .navbar:not(.scrolled) .nav-menu > .nav-item > a:not(.nav-cta-btn),
+body:has(main > .legal-page-content) .navbar:not(.scrolled) .nav-link:not(.nav-cta-btn) {
+  color: #FAFAF8 !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.35);
+}
+
+/* FIX: transparent-navbar-page-contrast-v2
+   Page-scoped initial navbar contrast for transparent navbars. */
+body:has(main > .index-hero-section) .navbar:not(.scrolled) .nav-menu > li > a:not(.nav-cta-btn),
+body:has(main > .index-hero-section) .navbar:not(.scrolled) .nav-menu > .nav-item > a:not(.nav-cta-btn),
+body:has(main > .index-hero-section) .navbar:not(.scrolled) .nav-link:not(.nav-cta-btn) {
+  color: #FAFAF8 !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.35);
+}
+
+body:has(main > .solutions-integrations-section) .navbar:not(.scrolled) .nav-menu > li > a:not(.nav-cta-btn),
+body:has(main > .solutions-integrations-section) .navbar:not(.scrolled) .nav-menu > .nav-item > a:not(.nav-cta-btn),
+body:has(main > .solutions-integrations-section) .navbar:not(.scrolled) .nav-link:not(.nav-cta-btn) {
+  color: #FAFAF8 !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.35);
+}
+
+body:has(main > .about-overview-section) .navbar:not(.scrolled) .nav-menu > li > a:not(.nav-cta-btn),
+body:has(main > .about-overview-section) .navbar:not(.scrolled) .nav-menu > .nav-item > a:not(.nav-cta-btn),
+body:has(main > .about-overview-section) .navbar:not(.scrolled) .nav-link:not(.nav-cta-btn) {
+  color: #1F2933 !important;
+  text-shadow: none;
+}
+
+body:has(main > .contact-contact-details-section) .navbar:not(.scrolled) .nav-menu > li > a:not(.nav-cta-btn),
+body:has(main > .contact-contact-details-section) .navbar:not(.scrolled) .nav-menu > .nav-item > a:not(.nav-cta-btn),
+body:has(main > .contact-contact-details-section) .navbar:not(.scrolled) .nav-link:not(.nav-cta-btn) {
+  color: #FAFAF8 !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.35);
+}
+
+body:has(main > .legal-page-content) .navbar:not(.scrolled) .nav-menu > li > a:not(.nav-cta-btn),
+body:has(main > .legal-page-content) .navbar:not(.scrolled) .nav-menu > .nav-item > a:not(.nav-cta-btn),
+body:has(main > .legal-page-content) .navbar:not(.scrolled) .nav-link:not(.nav-cta-btn) {
+  color: #FAFAF8 !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.35);
+}
+
+@media (max-width: 768px) {
+  .navbar.scrolled .mobile-toggle,
+  .navbar.scrolled .mobile-hamburger-btn,
+  .navbar.scrolled .mobile-close-btn,
+  .navbar.scrolled .phone-header-btn,
+  .navbar.scrolled .navbar-brand,
+  .navbar.scrolled .logo-link {
+    color: #1F2933 !important;
+  }
+}
+
+/* FIX: transparent-navbar-page-contrast-v3
+   Page-scoped initial navbar contrast for transparent navbars. */
+body:has(main > .index-hero-section) .navbar:not(.scrolled) .nav-menu > li > a:not(.nav-cta-btn),
+body:has(main > .index-hero-section) .navbar:not(.scrolled) .nav-menu > .nav-item > a:not(.nav-cta-btn),
+body:has(main > .index-hero-section) .navbar:not(.scrolled) .nav-link:not(.nav-cta-btn) {
+  color: #FAFAF8 !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.35);
+}
+
+body:has(main > .solutions-integrations-section) .navbar:not(.scrolled) .nav-menu > li > a:not(.nav-cta-btn),
+body:has(main > .solutions-integrations-section) .navbar:not(.scrolled) .nav-menu > .nav-item > a:not(.nav-cta-btn),
+body:has(main > .solutions-integrations-section) .navbar:not(.scrolled) .nav-link:not(.nav-cta-btn) {
+  color: #FAFAF8 !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.35);
+}
+
+body:has(main > .about-overview-section) .navbar:not(.scrolled) .nav-menu > li > a:not(.nav-cta-btn),
+body:has(main > .about-overview-section) .navbar:not(.scrolled) .nav-menu > .nav-item > a:not(.nav-cta-btn),
+body:has(main > .about-overview-section) .navbar:not(.scrolled) .nav-link:not(.nav-cta-btn) {
+  color: #1F2933 !important;
+  text-shadow: none;
+}
+
+body:has(main > .contact-contact-details-section) .navbar:not(.scrolled) .nav-menu > li > a:not(.nav-cta-btn),
+body:has(main > .contact-contact-details-section) .navbar:not(.scrolled) .nav-menu > .nav-item > a:not(.nav-cta-btn),
+body:has(main > .contact-contact-details-section) .navbar:not(.scrolled) .nav-link:not(.nav-cta-btn) {
+  color: #FAFAF8 !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.35);
+}
+
+body:has(main > .legal-page-content) .navbar:not(.scrolled) .nav-menu > li > a:not(.nav-cta-btn),
+body:has(main > .legal-page-content) .navbar:not(.scrolled) .nav-menu > .nav-item > a:not(.nav-cta-btn),
+body:has(main > .legal-page-content) .navbar:not(.scrolled) .nav-link:not(.nav-cta-btn) {
+  color: #FAFAF8 !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.35);
+}
+
+@media (max-width: 768px) {
+  .navbar.scrolled .mobile-toggle,
+  .navbar.scrolled .mobile-hamburger-btn,
+  .navbar.scrolled .mobile-close-btn,
+  .navbar.scrolled .phone-header-btn,
+  .navbar.scrolled .navbar-brand,
+  .navbar.scrolled .logo-link {
+    color: #1F2933 !important;
+  }
+  .navbar.scrolled .mobile-toggle svg,
+  .navbar.scrolled .mobile-hamburger-btn svg,
+  .navbar.scrolled .mobile-close-btn svg,
+  .navbar.scrolled .phone-header-btn svg,
+  .navbar.scrolled .navbar-brand svg,
+  .navbar.scrolled .logo-link svg {
+    color: #1F2933 !important;
+    stroke: currentColor !important;
+  }
+  .navbar.scrolled .mobile-toggle svg path,
+  .navbar.scrolled .mobile-hamburger-btn svg path,
+  .navbar.scrolled .mobile-close-btn svg path,
+  .navbar.scrolled .phone-header-btn svg path,
+  .navbar.scrolled .navbar-brand svg path,
+  .navbar.scrolled .logo-link svg path {
+    stroke: currentColor !important;
+  }
+}
+
+/* FIX: transparent-navbar-page-contrast-v4
+   Page-scoped initial navbar contrast for transparent navbars. */
+body:has(main > .index-hero-section) .navbar:not(.scrolled) .nav-menu > li > a:not(.nav-cta-btn),
+body:has(main > .index-hero-section) .navbar:not(.scrolled) .nav-menu > .nav-item > a:not(.nav-cta-btn),
+body:has(main > .index-hero-section) .navbar:not(.scrolled) .nav-link:not(.nav-cta-btn) {
+  color: #FAFAF8 !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.35);
+}
+
+body:has(main > .solutions-integrations-section) .navbar:not(.scrolled) .nav-menu > li > a:not(.nav-cta-btn),
+body:has(main > .solutions-integrations-section) .navbar:not(.scrolled) .nav-menu > .nav-item > a:not(.nav-cta-btn),
+body:has(main > .solutions-integrations-section) .navbar:not(.scrolled) .nav-link:not(.nav-cta-btn) {
+  color: #FAFAF8 !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.35);
+}
+
+body:has(main > .about-overview-section) .navbar:not(.scrolled) .nav-menu > li > a:not(.nav-cta-btn),
+body:has(main > .about-overview-section) .navbar:not(.scrolled) .nav-menu > .nav-item > a:not(.nav-cta-btn),
+body:has(main > .about-overview-section) .navbar:not(.scrolled) .nav-link:not(.nav-cta-btn) {
+  color: #1F2933 !important;
+  text-shadow: none;
+}
+
+body:has(main > .contact-contact-details-section) .navbar:not(.scrolled) .nav-menu > li > a:not(.nav-cta-btn),
+body:has(main > .contact-contact-details-section) .navbar:not(.scrolled) .nav-menu > .nav-item > a:not(.nav-cta-btn),
+body:has(main > .contact-contact-details-section) .navbar:not(.scrolled) .nav-link:not(.nav-cta-btn) {
+  color: #FAFAF8 !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.35);
+}
+
+body:has(main > .legal-page-content) .navbar:not(.scrolled) .nav-menu > li > a:not(.nav-cta-btn),
+body:has(main > .legal-page-content) .navbar:not(.scrolled) .nav-menu > .nav-item > a:not(.nav-cta-btn),
+body:has(main > .legal-page-content) .navbar:not(.scrolled) .nav-link:not(.nav-cta-btn) {
+  color: #FAFAF8 !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.35);
+}
+
+@media (max-width: 768px) {
+  .navbar.scrolled .mobile-toggle,
+  .navbar.scrolled .mobile-hamburger-btn,
+  .navbar.scrolled .mobile-close-btn,
+  .navbar.scrolled .phone-header-btn,
+  .navbar.scrolled .navbar-brand,
+  .navbar.scrolled .logo-link {
+    color: #1F2933 !important;
+  }
+  .navbar.scrolled .mobile-toggle svg,
+  .navbar.scrolled .mobile-hamburger-btn svg,
+  .navbar.scrolled .mobile-close-btn svg,
+  .navbar.scrolled .phone-header-btn svg,
+  .navbar.scrolled .navbar-brand svg,
+  .navbar.scrolled .logo-link svg {
+    color: #1F2933 !important;
+    stroke: currentColor !important;
+  }
+  .navbar.scrolled .mobile-toggle svg path,
+  .navbar.scrolled .mobile-hamburger-btn svg path,
+  .navbar.scrolled .mobile-close-btn svg path,
+  .navbar.scrolled .phone-header-btn svg path,
+  .navbar.scrolled .navbar-brand svg path,
+  .navbar.scrolled .logo-link svg path {
+    stroke: currentColor !important;
+  }
+  body.menu-open .navbar .mobile-toggle,
+  body.nav-open .navbar .mobile-toggle,
+  body.mobile-menu-open .navbar .mobile-toggle,
+  .navbar.active .mobile-toggle,
+  .navbar.open .mobile-toggle,
+  .navbar.show .mobile-toggle,
+  .navbar.menu-open .mobile-toggle,
+  .navbar:has(.nav-menu.active) .mobile-toggle,
+  .navbar:has(#navMenu.active) .mobile-toggle,
+  .navbar:has(.mobile-menu.active) .mobile-toggle,
+  .navbar:has(.mobile-toggle.active) .mobile-toggle,
+  body.menu-open .navbar .phone-header-btn,
+  body.nav-open .navbar .phone-header-btn,
+  body.mobile-menu-open .navbar .phone-header-btn,
+  .navbar.active .phone-header-btn,
+  .navbar.open .phone-header-btn,
+  .navbar.show .phone-header-btn,
+  .navbar.menu-open .phone-header-btn,
+  .navbar:has(.nav-menu.active) .phone-header-btn,
+  .navbar:has(#navMenu.active) .phone-header-btn,
+  .navbar:has(.mobile-menu.active) .phone-header-btn,
+  .navbar:has(.mobile-toggle.active) .phone-header-btn {
+    color: #FAFAF8 !important;
+  }
+  body.menu-open .navbar .mobile-toggle svg,
+  body.nav-open .navbar .mobile-toggle svg,
+  body.mobile-menu-open .navbar .mobile-toggle svg,
+  .navbar.active .mobile-toggle svg,
+  .navbar.open .mobile-toggle svg,
+  .navbar.show .mobile-toggle svg,
+  .navbar.menu-open .mobile-toggle svg,
+  .navbar:has(.nav-menu.active) .mobile-toggle svg,
+  .navbar:has(#navMenu.active) .mobile-toggle svg,
+  .navbar:has(.mobile-menu.active) .mobile-toggle svg,
+  .navbar:has(.mobile-toggle.active) .mobile-toggle svg,
+  body.menu-open .navbar .phone-header-btn svg,
+  body.nav-open .navbar .phone-header-btn svg,
+  body.mobile-menu-open .navbar .phone-header-btn svg,
+  .navbar.active .phone-header-btn svg,
+  .navbar.open .phone-header-btn svg,
+  .navbar.show .phone-header-btn svg,
+  .navbar.menu-open .phone-header-btn svg,
+  .navbar:has(.nav-menu.active) .phone-header-btn svg,
+  .navbar:has(#navMenu.active) .phone-header-btn svg,
+  .navbar:has(.mobile-menu.active) .phone-header-btn svg,
+  .navbar:has(.mobile-toggle.active) .phone-header-btn svg {
+    color: #FAFAF8 !important;
+    stroke: currentColor !important;
+  }
+  body.menu-open .navbar .mobile-toggle svg path,
+  body.nav-open .navbar .mobile-toggle svg path,
+  body.mobile-menu-open .navbar .mobile-toggle svg path,
+  .navbar.active .mobile-toggle svg path,
+  .navbar.open .mobile-toggle svg path,
+  .navbar.show .mobile-toggle svg path,
+  .navbar.menu-open .mobile-toggle svg path,
+  .navbar:has(.nav-menu.active) .mobile-toggle svg path,
+  .navbar:has(#navMenu.active) .mobile-toggle svg path,
+  .navbar:has(.mobile-menu.active) .mobile-toggle svg path,
+  .navbar:has(.mobile-toggle.active) .mobile-toggle svg path,
+  body.menu-open .navbar .phone-header-btn svg path,
+  body.nav-open .navbar .phone-header-btn svg path,
+  body.mobile-menu-open .navbar .phone-header-btn svg path,
+  .navbar.active .phone-header-btn svg path,
+  .navbar.open .phone-header-btn svg path,
+  .navbar.show .phone-header-btn svg path,
+  .navbar.menu-open .phone-header-btn svg path,
+  .navbar:has(.nav-menu.active) .phone-header-btn svg path,
+  .navbar:has(#navMenu.active) .phone-header-btn svg path,
+  .navbar:has(.mobile-menu.active) .phone-header-btn svg path,
+  .navbar:has(.mobile-toggle.active) .phone-header-btn svg path {
+    stroke: currentColor !important;
+  }
+}
+
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
