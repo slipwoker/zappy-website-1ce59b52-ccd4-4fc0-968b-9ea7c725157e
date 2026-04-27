@@ -1227,7 +1227,41 @@
     <i class="fab fa-whatsapp"></i>
   </a>
   
-  <div data-integration="accessibility:toolbar"></div>
+  <script>
+/* Transparent navbar light text — homepage only */
+(function() {
+  var style = document.createElement('style');
+  style.id = 'zappy-hero-nav-light';
+  style.textContent = [
+    '.page-home .navbar:not(.scrolled) .nav-menu a,',
+    '.page-home .navbar:not(.scrolled) .nav-menu li a,',
+    '.page-home .navbar[style*="rgba(255, 255, 255, 0)"] .nav-menu a {',
+    '  color: #ffffff !important;',
+    '}',
+    '.page-home .navbar:not(.scrolled) .mobile-toggle,',
+    '.page-home .navbar:not(.scrolled) .phone-header-btn {',
+    '  color: #ffffff !important;',
+    '}'
+  ].join('\n');
+  document.head.appendChild(style);
+
+  /* Once the scroll JS gives the navbar a solid background, remove override */
+  var navbar = document.querySelector('.navbar');
+  if (!navbar) return;
+  var observer = new MutationObserver(function() {
+    var bg = navbar.style.backgroundColor || '';
+    var isLight = bg && bg !== 'rgba(0, 0, 0, 0)' && bg !== 'transparent';
+    if (isLight) {
+      var el = document.getElementById('zappy-hero-nav-light');
+      if (el) el.remove();
+      observer.disconnect();
+    }
+  });
+  observer.observe(navbar, { attributes: true, attributeFilter: ['style', 'class'] });
+})();
+</script>
+
+    <div data-integration="accessibility:toolbar"></div>
 
     <script src="/script.js"></script>
 
