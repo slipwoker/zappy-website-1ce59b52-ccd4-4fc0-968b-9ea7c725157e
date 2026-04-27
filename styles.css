@@ -8659,6 +8659,8 @@ nav.navbar .sub-menu li a {
   background-color: var(--text-color) !important;
   background: var(--text-color) !important;
 }
+/* Batch: Fix navbar transparency on scroll - force dark background */
+.navbar { background-color: #1F2933 !important; background: #1F2933 !important; }
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
