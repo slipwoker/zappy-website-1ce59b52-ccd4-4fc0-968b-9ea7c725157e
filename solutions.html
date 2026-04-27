@@ -962,14 +962,27 @@
   var style = document.createElement('style');
   style.id = 'zappy-hero-nav-light';
   style.textContent = [
-    '.page-solutions .navbar:not(.scrolled) .nav-menu a,',
-    '.page-solutions .navbar:not(.scrolled) .nav-menu li a,',
-    '.page-solutions .navbar[style*="rgba(255, 255, 255, 0)"] .nav-menu a {',
+    '.page-solutions .navbar .nav-menu a,',
+    '.page-solutions .navbar .nav-menu li a {',
     '  color: #ffffff !important;',
     '}',
-    '.page-solutions .navbar:not(.scrolled) .mobile-toggle,',
-    '.page-solutions .navbar:not(.scrolled) .phone-header-btn {',
+    '.page-solutions .navbar.scrolled .nav-menu a,',
+    '.page-solutions .navbar.scrolled .nav-menu li a {',
+    '  color: var(--nav-text) !important;',
+    '}',
+    '.page-solutions .navbar .nav-cta-btn {',
     '  color: #ffffff !important;',
+    '}',
+    '.page-solutions .navbar.scrolled .nav-cta-btn {',
+    '  color: var(--nav-text) !important;',
+    '}',
+    '.page-solutions .navbar .mobile-toggle,',
+    '.page-solutions .navbar .phone-header-btn {',
+    '  color: #ffffff !important;',
+    '}',
+    '.page-solutions .navbar.scrolled .mobile-toggle,',
+    '.page-solutions .navbar.scrolled .phone-header-btn {',
+    '  color: var(--nav-text) !important;',
     '}'
   ].join('\n');
   document.head.appendChild(style);
