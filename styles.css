@@ -8654,6 +8654,11 @@ nav.navbar .sub-menu li a {
 .navbar .nav-cta-btn {
   color: #FFFFFF !important;
 }
+
+.navbar {
+  background-color: var(--text-color) !important;
+  background: var(--text-color) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
