@@ -8661,6 +8661,29 @@ nav.navbar .sub-menu li a {
 }
 /* Batch: Fix navbar transparency on scroll - force dark background */
 .navbar { background-color: #1F2933 !important; background: #1F2933 !important; }
+/* Batch: Force white navbar background and black text at all times including on scroll */
+.navbar,
+.navbar.scrolled,
+.navbar.active,
+.navbar.open,
+.navbar.show {
+  background-color: #ffffff !important;
+  background: #ffffff !important;
+  background-image: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+.navbar .nav-menu > li > a,
+.navbar .nav-link,
+.navbar a:not(.nav-cta-btn),
+.navbar .mobile-toggle,
+.navbar .phone-header-btn {
+  color: #1F2933 !important;
+}
+.navbar .nav-menu > li > a:hover,
+.navbar a:not(.nav-cta-btn):hover {
+  color: #1E5EFF !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
