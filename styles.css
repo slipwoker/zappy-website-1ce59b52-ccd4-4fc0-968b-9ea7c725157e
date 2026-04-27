@@ -8390,6 +8390,12 @@ body.accessibility-widget-visible ._access-menu {
     font-size: 1.15rem;
   }
 }
+
+.navbar, .navbar.scrolled, nav.navbar {
+  background-color: var(--background-color) !important;
+  background: var(--background-color) !important;
+  backdrop-filter: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
