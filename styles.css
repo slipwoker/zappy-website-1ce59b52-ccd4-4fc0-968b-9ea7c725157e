@@ -9230,6 +9230,259 @@ body:has(main > .legal-page-content) .navbar:not(.scrolled) .nav-link:not(.nav-c
   font-size: 11px;
 }
 }
+
+@media (max-width: 768px) {
+.index-hero-section {
+  min-height: 100svh !important;
+  padding-bottom: 70px !important;
+  align-items: flex-end !important;
+}
+
+.index-hero-section .index-hero-container {
+  padding: 80px 16px 24px !important;
+  align-items: flex-end !important;
+  justify-content: center !important;
+}
+
+.index-hero-section .index-hero-card {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 22px 18px !important;
+  gap: 14px !important;
+}
+
+.index-hero-section .index-hero-headline {
+  font-size: 1.65rem !important;
+  line-height: 1.22 !important;
+}
+
+.index-hero-section .index-hero-subtitle {
+  font-size: 14px !important;
+  line-height: 1.65 !important;
+}
+
+.index-hero-section .index-hero-proof-text {
+  font-size: 11px !important;
+}
+
+.index-hero-section .index-hero-ctas {
+  flex-direction: column !important;
+  gap: 10px !important;
+}
+
+.index-hero-section .index-hero-btn-primary,
+  .index-hero-section .index-hero-btn-secondary {
+  width: 100% !important;
+  justify-content: center !important;
+  padding: 13px 20px !important;
+  font-size: 14px !important;
+  box-sizing: border-box !important;
+}
+
+.index-hero-section .index-hero-scrim {
+  background-image: linear-gradient(
+      to top,
+      rgba(10, 18, 32, 0.92) 0%,
+      rgba(10, 18, 32, 0.65) 55%,
+      rgba(10, 18, 32, 0.20) 100%
+    ) !important;
+}
+
+.index-capabilities-section {
+  padding: 56px 0 52px !important;
+}
+
+.index-capabilities-section .index-capabilities-container {
+  padding: 0 16px !important;
+}
+
+.index-capabilities-section .index-capabilities-intro {
+  flex-direction: column !important;
+  gap: 14px !important;
+  margin-bottom: 24px !important;
+}
+
+.index-capabilities-section .index-capabilities-heading {
+  font-size: 24px !important;
+}
+
+.index-capabilities-section .index-capabilities-grid {
+  grid-template-columns: 1fr !important;
+  gap: 14px !important;
+}
+
+.index-capabilities-section .index-capabilities-card {
+  padding: 18px 14px !important;
+  gap: 12px !important;
+}
+
+.index-capabilities-section .index-capabilities-card-content h3 {
+  font-size: 15px !important;
+}
+
+.index-capabilities-section .index-capabilities-card-content p {
+  font-size: 14px !important;
+}
+
+.index-process-section {
+  padding: 56px 16px 72px !important;
+}
+
+.index-process-section .index-process-header {
+  margin-bottom: 36px !important;
+}
+
+.index-process-section .index-process-title {
+  font-size: 1.35rem !important;
+}
+
+.index-process-section .index-process-subtitle {
+  font-size: 14px !important;
+}
+
+.index-process-section .index-process-flow {
+  grid-template-columns: 1fr !important;
+  gap: 24px !important;
+}
+
+.index-process-section .index-process-connector {
+  display: none !important;
+}
+
+.index-process-section .index-process-stage {
+  flex-direction: row !important;
+  align-items: flex-start !important;
+  text-align: right !important;
+  gap: 16px !important;
+  padding: 0 18px 0 0 !important;
+  border-right: 2px solid rgba(30, 94, 255, 0.35) !important;
+}
+
+.index-process-section .index-process-node {
+  width: 46px !important;
+  height: 46px !important;
+  flex-shrink: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.index-process-section .index-process-stage-content {
+  align-items: flex-start !important;
+  text-align: right !important;
+  gap: 8px !important;
+}
+
+.index-process-section .index-process-stage-title {
+  text-align: right !important;
+  font-size: 1rem !important;
+}
+
+.index-process-section .index-process-stage-desc {
+  text-align: right !important;
+  max-width: 100% !important;
+  font-size: 13px !important;
+}
+
+.index-process-section .index-process-diagram-tile {
+  display: none !important;
+}
+
+.index-case-studies-section {
+  padding: 56px 0 0 !important;
+}
+
+.index-case-studies-section .cs-container {
+  padding: 0 16px 56px !important;
+}
+
+.index-case-studies-section .cs-header {
+  margin-bottom: 24px !important;
+}
+
+.index-case-studies-section .cs-heading {
+  font-size: 22px !important;
+}
+
+.index-case-studies-section .cs-intro {
+  font-size: 14px !important;
+  line-height: 1.65 !important;
+}
+
+.index-case-studies-section .cs-grid {
+  grid-template-columns: 1fr !important;
+  gap: 18px !important;
+}
+
+.index-case-studies-section .cs-side-cards {
+  gap: 18px !important;
+}
+
+.index-case-studies-section .cs-card-image-wrap img {
+  height: 210px !important;
+}
+
+.index-case-studies-section .cs-card-image-wrap--small img {
+  height: 170px !important;
+}
+
+.index-case-studies-section .cs-card-body {
+  padding: 18px 16px !important;
+  gap: 12px !important;
+}
+
+.index-case-studies-section .cs-card-body--small {
+  padding: 14px 16px !important;
+  gap: 10px !important;
+}
+
+.index-case-studies-section .cs-card-title {
+  font-size: 17px !important;
+}
+
+.index-case-studies-section .cs-card-title--small {
+  font-size: 15px !important;
+}
+
+.index-case-studies-section .cs-spec-strip {
+  flex-wrap: wrap !important;
+  row-gap: 6px !important;
+}
+
+.index-cta-section {
+  padding: 56px 16px !important;
+}
+
+.index-cta-section .index-cta-panel {
+  padding: 32px 18px !important;
+  max-width: 100% !important;
+}
+
+.index-cta-section .index-cta-heading {
+  font-size: 1.35rem !important;
+}
+
+.index-cta-section .index-cta-body {
+  font-size: 14px !important;
+  margin-bottom: 26px !important;
+}
+
+.index-cta-section .index-cta-actions {
+  flex-direction: column !important;
+  width: 100% !important;
+  gap: 10px !important;
+}
+
+.index-cta-section .index-cta-btn-primary,
+  .index-cta-section .index-cta-btn-secondary {
+  width: 100% !important;
+  justify-content: center !important;
+  padding: 14px 20px !important;
+  box-sizing: border-box !important;
+}
+
+.index-cta-section .index-cta-eyebrow small {
+  font-size: 11px !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
