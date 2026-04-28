@@ -8973,6 +8973,263 @@ body:has(main > .legal-page-content) .navbar:not(.scrolled) .nav-link:not(.nav-c
   }
 }
 
+
+@media (max-width: 768px) {
+.index-hero-section {
+  min-height: 100svh;
+  padding-bottom: 70px;
+  align-items: flex-end;
+}
+
+.index-hero-section .index-hero-container {
+  padding: 80px 16px 24px;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.index-hero-section .index-hero-card {
+  max-width: 100%;
+  width: 100%;
+  padding: 22px 18px;
+  gap: 14px;
+}
+
+.index-hero-section .index-hero-headline {
+  font-size: 1.65rem;
+  line-height: 1.22;
+}
+
+.index-hero-section .index-hero-subtitle {
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.index-hero-section .index-hero-proof-text {
+  font-size: 11px;
+}
+
+.index-hero-section .index-hero-ctas {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.index-hero-section .index-hero-btn-primary,
+  .index-hero-section .index-hero-btn-secondary {
+  width: 100%;
+  justify-content: center;
+  padding: 13px 20px;
+  font-size: 14px;
+}
+
+.index-hero-section .index-hero-scrim {
+  background-image: linear-gradient(
+      to top,
+      rgba(10, 18, 32, 0.92) 0%,
+      rgba(10, 18, 32, 0.65) 55%,
+      rgba(10, 18, 32, 0.20) 100%
+    );
+}
+
+.index-capabilities-section {
+  padding: 56px 0 52px;
+}
+
+.index-capabilities-section .index-capabilities-container {
+  padding: 0 16px;
+}
+
+.index-capabilities-section .index-capabilities-intro {
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.index-capabilities-section .index-capabilities-heading {
+  font-size: 24px;
+}
+
+.index-capabilities-section .index-capabilities-grid {
+  grid-template-columns: 1fr !important;
+  gap: 14px;
+}
+
+.index-capabilities-section .index-capabilities-card {
+  padding: 18px 14px;
+  gap: 12px;
+}
+
+.index-capabilities-section .index-capabilities-card-content h3 {
+  font-size: 15px;
+}
+
+.index-capabilities-section .index-capabilities-card-content p {
+  font-size: 14px;
+}
+
+.index-process-section {
+  padding: 56px 16px 72px;
+}
+
+.index-process-section .index-process-header {
+  margin-bottom: 40px;
+}
+
+.index-process-section .index-process-title {
+  font-size: 1.4rem;
+}
+
+.index-process-section .index-process-subtitle {
+  font-size: 14px;
+}
+
+.index-process-section .index-process-flow {
+  grid-template-columns: 1fr !important;
+  gap: 28px;
+  direction: rtl;
+}
+
+.index-process-section .index-process-connector {
+  display: none;
+}
+
+.index-process-section .index-process-stage {
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: right;
+  gap: 16px;
+  padding: 0;
+  border-right: 2px solid rgba(30, 94, 255, 0.25);
+  padding-right: 18px;
+}
+
+.index-process-section .index-process-node {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  margin-bottom: 0;
+}
+
+.index-process-section .index-process-stage-content {
+  align-items: flex-start;
+  text-align: right;
+}
+
+.index-process-section .index-process-stage-title {
+  text-align: right;
+  font-size: 1rem;
+}
+
+.index-process-section .index-process-stage-desc {
+  text-align: right;
+  max-width: 100%;
+  font-size: 13px;
+}
+
+.index-process-section .index-process-diagram-tile {
+  display: none;
+}
+
+.index-case-studies-section {
+  padding: 56px 0 0;
+}
+
+.index-case-studies-section .cs-container {
+  padding: 0 16px 56px;
+}
+
+.index-case-studies-section .cs-header {
+  margin-bottom: 28px;
+}
+
+.index-case-studies-section .cs-heading {
+  font-size: 22px;
+}
+
+.index-case-studies-section .cs-intro {
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.index-case-studies-section .cs-grid {
+  grid-template-columns: 1fr !important;
+  gap: 18px;
+}
+
+.index-case-studies-section .cs-side-cards {
+  gap: 18px;
+}
+
+.index-case-studies-section .cs-card-image-wrap img {
+  height: 220px;
+}
+
+.index-case-studies-section .cs-card-image-wrap--small img {
+  height: 180px;
+}
+
+.index-case-studies-section .cs-card-body {
+  padding: 20px 16px;
+  gap: 14px;
+}
+
+.index-case-studies-section .cs-card-body--small {
+  padding: 16px;
+  gap: 10px;
+}
+
+.index-case-studies-section .cs-card-title {
+  font-size: 17px;
+}
+
+.index-case-studies-section .cs-card-title--small {
+  font-size: 15px;
+}
+
+.index-case-studies-section .cs-spec-strip {
+  flex-wrap: wrap;
+  gap: 8px;
+  row-gap: 8px;
+}
+
+.index-case-studies-section .cs-spec-item {
+  min-width: 60px;
+}
+
+.index-cta-section {
+  padding: 56px 16px;
+}
+
+.index-cta-section .index-cta-panel {
+  padding: 36px 20px;
+  max-width: 100%;
+}
+
+.index-cta-section .index-cta-heading {
+  font-size: 1.4rem;
+}
+
+.index-cta-section .index-cta-body {
+  font-size: 14px;
+  margin-bottom: 28px;
+}
+
+.index-cta-section .index-cta-actions {
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.index-cta-section .index-cta-btn-primary,
+  .index-cta-section .index-cta-btn-secondary {
+  width: 100%;
+  justify-content: center;
+  padding: 14px 20px;
+}
+
+.index-cta-section .index-cta-eyebrow small {
+  font-size: 11px;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
