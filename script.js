@@ -501,6 +501,50 @@ window.onload = function() {
 })();
 
 
+/* Added Component Script */
+/* Optional: Animate stat numbers on scroll */
+(function () {
+  'use strict';
+
+  const statNums = document.querySelectorAll('.galil-col-stat-num[data-target]');
+  if (!statNums.length) return;
+
+  const animateStat = (el) => {
+    const target = parseInt(el.getAttribute('data-target'), 10);
+    if (isNaN(target)) return;
+    const duration = 1400;
+    const startTime = performance.now();
+    const originalText = el.textContent;
+    const suffix = originalText.replace(/[\d]/g, '');
+
+    const step = (currentTime) => {
+      const elapsed = currentTime - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      const current = Math.floor(eased * target);
+      el.textContent = current + suffix;
+      if (progress < 1) {
+        requestAnimationFrame(step);
+      } else {
+        el.textContent = target + suffix;
+      }
+    };
+    requestAnimationFrame(step);
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        animateStat(entry.target);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.5 });
+
+  statNums.forEach((el) => observer.observe(el));
+})();
+
+
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
   try {
