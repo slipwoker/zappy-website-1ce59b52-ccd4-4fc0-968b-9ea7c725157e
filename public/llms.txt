@@ -1,4 +1,6 @@
-# Business — Generative Engine Optimization Map
+# גליל טכנולוגיות — Generative Engine Optimization Map
+
+> A mechanical engineering company specializing in the design of machines and integrated control systems, offering end-to-end smart mechanical solutions — from initial concept through to the final product. The company bridges creative engineering thinking with practical execution, delivering intelligent, custom-built mechanical systems for industrial or technical clients.
 
 ---
 
@@ -40,12 +42,51 @@ Information about WCAG compliance and accessibility features.
 
 ---
 
-# Business Context (for LLM understanding)
+## How to Contact Us
 
-## About Business
+- Email: meir@galilt.com
+- Phone: 046705020
+- Phone (tel): tel:046705020
+- Address: מפעלים אזוריים גרנות
+
+### Contact form
+- URL: https://galiltechnologies.zappy5.app/contact
+- Endpoint: https://galiltechnologies.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox, required)
+
 ---
 
-# Additional Resources
+# Business Context (for LLM understanding)
 
-- **Sitemap**: https://galiltechnologies.zappy5.app/sitemap.xml
-- **Robots.txt**: https://galiltechnologies.zappy5.app/robots.txt
+## About גליל טכנולוגיות
+A mechanical engineering company specializing in the design of machines and integrated control systems, offering end-to-end smart mechanical solutions — from initial concept through to the final product. The company bridges creative engineering thinking with practical execution, delivering intelligent, custom-built mechanical systems for industrial or technical clients.
+
+## Services/Products
+- תכנון מכאני של מכונות
+- תכנון מתקנים משולבי בקרה
+- פתרונות מכאניים חכמים
+- ליווי מהרעיון עד למוצר הסופי
+
+## Target Audience
+- מנהלי אוטומציה תעשייתית
+- מהנדסי מכונות
+- חברות ייצור
+- מרכזי מחקר ופיתוח
+
+## Industry
+הנדסה מכנית ואוטומציה תעשייתית
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://galiltechnologies.zappy5.app/sitemap.xml
+- Robots: https://galiltechnologies.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://galiltechnologies.zappy5.app/llms-full.txt

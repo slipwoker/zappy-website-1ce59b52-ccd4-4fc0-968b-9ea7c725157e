@@ -223,6 +223,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="מדיניות פרטיות">
     <meta name="twitter:description" content="מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם">
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://galiltechnologies.zappy5.app#organization","name":"גליל טכנולוגיות","url":"https://galiltechnologies.zappy5.app","description":"A mechanical engineering company specializing in the design of machines and integrated control systems, offering end-to-end smart mechanical solutions — from initial concept through to the final product. The company bridges creative engineering thinking with practical execution, delivering intelligent, custom-built mechanical systems for industrial or technical clients.","address":{"@type":"PostalAddress","streetAddress":"מפעלים אזוריים גרנות"},"contactPoint":[{"@type":"ContactPoint","contactType":"customer service","email":"meir@galilt.com","telephone":"046705020"}]},{"@type":"WebSite","@id":"https://galiltechnologies.zappy5.app#website","url":"https://galiltechnologies.zappy5.app","name":"גליל טכנולוגיות","publisher":{"@id":"https://galiltechnologies.zappy5.app#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://galiltechnologies.zappy5.app"},{"@type":"ListItem","position":2,"name":"Privacy","item":"https://galiltechnologies.zappy5.app/privacy"}]}]}</script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     
     
@@ -287,11 +288,17 @@
     </style>
 
     <style id="zappy-widget-visibility">
-      #mic-access-tool-general-button, .mic-access-tool-general-button,
-      #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
-      ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
-      #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
-        display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+      @media (max-width: 768px) { .whatsapp-float { display: flex !important; } }
+      @media (min-width: 769px) { .whatsapp-float { display: flex !important; } }
+      @media (max-width: 768px) {
+        #mic-access-tool-general-button, .mic-access-tool-general-button,
+        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
+        ._access-icon { display: flex !important; visibility: visible !important; opacity: 1 !important; pointer-events: auto !important; }
+      }
+      @media (min-width: 769px) {
+        #mic-access-tool-general-button, .mic-access-tool-general-button,
+        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
+        ._access-icon { display: flex !important; visibility: visible !important; opacity: 1 !important; pointer-events: auto !important; }
       }
     </style>
 </head>
