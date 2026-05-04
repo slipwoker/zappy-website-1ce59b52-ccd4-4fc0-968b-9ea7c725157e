@@ -9831,6 +9831,219 @@ body:has(main > .legal-page-content) .navbar:not(.scrolled) .nav-link:not(.nav-c
     flex-direction: column;
   }
 }
+
+/* Added Component Styles */
+/* =============================
+   About Paragraphs Section
+   ============================= */
+
+.about-paragraphs-section {
+  background-color: var(--background-color, #FAFAF8);
+  padding: 90px 20px;
+  font-family: system-ui, sans-serif;
+  direction: rtl;
+  color: var(--text-color, #1F2933);
+}
+
+/* Container */
+.about-paragraphs-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* ---- Header ---- */
+.about-paragraphs-header {
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.about-paragraphs-main-title {
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: var(--secondary-color, #1F2933);
+  margin: 0 0 18px 0;
+  line-height: 1.25;
+  letter-spacing: -0.5px;
+  position: relative;
+  display: inline-block;
+}
+
+.about-paragraphs-main-title::after {
+  content: '';
+  display: block;
+  width: 64px;
+  height: 4px;
+  background: var(--gradient-primary, linear-gradient(135deg, #0042E9 0%, #354658 100%));
+  border-radius: 2px;
+  margin: 14px auto 0 auto;
+}
+
+.about-paragraphs-intro {
+  font-size: 1.15rem;
+  color: var(--text-secondary-color, #52606D);
+  max-width: 620px;
+  margin: 0 auto;
+  line-height: 1.75;
+}
+
+/* ---- Article Block ---- */
+.about-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  align-items: center;
+  margin-bottom: 72px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid rgba(30, 94, 255, 0.1);
+  box-shadow: 0 4px 24px rgba(30, 94, 255, 0.06);
+  padding: 44px 48px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.about-block:last-child {
+  margin-bottom: 0;
+}
+
+.about-block:hover {
+  box-shadow: 0 10px 40px rgba(30, 94, 255, 0.12);
+  transform: translateY(-3px);
+}
+
+/* Image-left variant: image first, text second */
+.about-block--image-left {
+  grid-template-columns: 1fr 1fr;
+}
+
+/* Image-right variant: text first, image second (default) */
+.about-block--image-right {
+  grid-template-columns: 1fr 1fr;
+}
+
+/* In RTL, image-left means the image is on the left visually */
+.about-block--image-left .about-block__image-wrap {
+  order: -1;
+}
+
+/* ---- Text ---- */
+.about-block__text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.about-block__subtitle {
+  font-size: 1.55rem;
+  font-weight: 700;
+  color: var(--primary-color, #1E5EFF);
+  margin: 0;
+  line-height: 1.3;
+  position: relative;
+  padding-right: 16px;
+}
+
+.about-block__subtitle::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 4px;
+  bottom: 4px;
+  width: 4px;
+  background: var(--accent-color, #D97706);
+  border-radius: 2px;
+}
+
+.about-block__body {
+  font-size: 1.05rem;
+  color: var(--text-secondary-color, #52606D);
+  line-height: 1.85;
+  margin: 0;
+}
+
+/* ---- Image ---- */
+.about-block__image-wrap {
+  border-radius: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.about-block__image {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+  transition: transform 0.4s ease;
+  cursor: pointer;
+}
+
+.about-block__image-wrap:hover .about-block__image {
+  transform: scale(1.04);
+}
+
+/* =============================
+   Responsive — Tablet
+   ============================= */
+@media (max-width: 900px) {
+  .about-paragraphs-main-title {
+    font-size: 2rem;
+  }
+
+  .about-block {
+    gap: 36px;
+    padding: 36px 32px;
+  }
+
+  .about-block__image {
+    height: 220px;
+  }
+}
+
+/* =============================
+   Responsive — Mobile
+   ============================= */
+@media (max-width: 640px) {
+  .about-paragraphs-section {
+    padding: 60px 16px;
+  }
+
+  .about-paragraphs-header {
+    margin-bottom: 48px;
+  }
+
+  .about-paragraphs-main-title {
+    font-size: 1.7rem;
+  }
+
+  .about-paragraphs-intro {
+    font-size: 1rem;
+  }
+
+  .about-block {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 28px 22px;
+    margin-bottom: 32px;
+  }
+
+  /* On mobile, always show image on top */
+  .about-block--image-left .about-block__image-wrap,
+  .about-block--image-right .about-block__image-wrap {
+    order: -1;
+  }
+
+  .about-block__image {
+    height: 200px;
+  }
+
+  .about-block__subtitle {
+    font-size: 1.25rem;
+  }
+
+  .about-block__body {
+    font-size: 0.98rem;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
