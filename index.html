@@ -299,17 +299,37 @@
     </style>
 
     <style id="zappy-widget-visibility">
+      html[dir="rtl"] .whatsapp-float { right: 20px !important; left: auto !important; }
+      html[dir="ltr"] .whatsapp-float, html:not([dir]) .whatsapp-float { left: 20px !important; right: auto !important; }
+      html[dir="rtl"] #mic-access-tool-general-button, html[dir="rtl"] .mic-access-tool-general-button,
+      html[dir="rtl"] #mic-init-access-tool .mic-access-tool-general-button,
+      html[dir="rtl"] #mic-init-access-tool #mic-access-tool-general-button,
+      html[dir="rtl"] ._access-icon { left: 20px !important; right: auto !important; }
+      html[dir="ltr"] #mic-access-tool-general-button, html[dir="ltr"] .mic-access-tool-general-button,
+      html[dir="ltr"] #mic-init-access-tool .mic-access-tool-general-button,
+      html[dir="ltr"] #mic-init-access-tool #mic-access-tool-general-button,
+      html[dir="ltr"] ._access-icon,
+      html:not([dir]) #mic-access-tool-general-button, html:not([dir]) .mic-access-tool-general-button,
+      html:not([dir]) #mic-init-access-tool .mic-access-tool-general-button,
+      html:not([dir]) #mic-init-access-tool #mic-access-tool-general-button,
+      html:not([dir]) ._access-icon { right: 20px !important; left: auto !important; }
       @media (max-width: 768px) { .whatsapp-float { display: flex !important; } }
       @media (min-width: 769px) { .whatsapp-float { display: flex !important; } }
       @media (max-width: 768px) {
         #mic-access-tool-general-button, .mic-access-tool-general-button,
         #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
-        ._access-icon { display: flex !important; visibility: visible !important; opacity: 1 !important; pointer-events: auto !important; }
+        ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
+        #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
+          display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+        }
       }
       @media (min-width: 769px) {
         #mic-access-tool-general-button, .mic-access-tool-general-button,
         #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
-        ._access-icon { display: flex !important; visibility: visible !important; opacity: 1 !important; pointer-events: auto !important; }
+        ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
+        #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
+          display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+        }
       }
     </style>
 </head>
@@ -778,7 +798,7 @@
     <section class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim" id="index-hero-section">
   <!-- Background Image -->
   <div class="index-hero-bg">
-    <div data-zappy-zoom-wrapper="true" data-element-id="img-1777272236928-ywykdhc3q" data-element-type="image" data-zappy-zoom-wrapper-width-mode="full" style="position: absolute !important; top: 0px !important; left: 0px !important; width: 1861px !important; height: 895px !important; max-width: 100% !important; margin-left: 0px !important; margin-right: 0px !important; display: block !important; z-index: 1 !important; overflow: hidden !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-zoom-wrapper-width="1861px" data-zappy-zoom-wrapper-height="895px" data-zappy-zoom-wrapper-align="center"><img data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="Cinematic wide-angle shot of a modern advanced industrial workshop with custom-built machinery, CNC machines, robotic arms, and integrated control panels. Cool neutral color grading, steel and aluminum surfaces, precise mechanical components, blue accent lighting from screens and control systems, professional industrial photography style, high resolution, photorealistic" width="1440" height="900" src="/assets/site-index-hero-image-1-1777914761839-achj9k.webp?v=1777914764537" alt="סדנת הנדסה מתקדמת עם מכונות מותאמות אישית ומערכות בקרה משולבות" data-hero-background="true" data-element-type="image" data-element-id="img-1777272236928-ywykdhc3q" style="object-fit: cover; width: 100%; height: 100%; object-position: 50% 50% !important; margin: 0px !important; position: absolute !important; left: 0% !important; top: -7.53131% !important; max-width: none !important; max-height: none !important; display: block !important;" data-zappy-object-position="50% 50%" data-zappy-zoom="1" data-zappy-original-width="1861" data-zappy-original-height="895"></div>
+    <div data-zappy-zoom-wrapper="true" data-element-id="img-1777272236928-ywykdhc3q" data-element-type="image" data-zappy-zoom-wrapper-width-mode="full" style="position: absolute !important; top: 0px !important; left: 0px !important; width: 100% !important; height: 100% !important; max-width: none !important; margin-left: 0px !important; margin-right: 0px !important; display: block !important; z-index: 1 !important; overflow: hidden !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-zoom-wrapper-width="1861px" data-zappy-zoom-wrapper-height="895px" data-zappy-zoom-wrapper-align="center"><img data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="Cinematic wide-angle shot of a modern advanced industrial workshop with custom-built machinery, CNC machines, robotic arms, and integrated control panels. Cool neutral color grading, steel and aluminum surfaces, precise mechanical components, blue accent lighting from screens and control systems, professional industrial photography style, high resolution, photorealistic" width="1440" height="900" src="/assets/site-index-hero-image-1-1777914761839-achj9k.webp?v=1777914764537" alt="סדנת הנדסה מתקדמת עם מכונות מותאמות אישית ומערכות בקרה משולבות" data-hero-background="true" data-element-type="image" data-element-id="img-1777272236928-ywykdhc3q" style="object-fit: cover !important; width: 100% !important; height: 100% !important; object-position: 50% 50% !important; margin: 0px !important; position: absolute !important; left: 0% !important; top: 0% !important; max-width: none !important; max-height: none !important; display: block !important;" data-zappy-object-position="50% 50%" data-zappy-zoom="1" data-zappy-original-width="1861" data-zappy-original-height="895"></div>
   </div>
 
   <!-- Scrim Overlay -->
@@ -786,7 +806,7 @@
 
   <!-- Content Card -->
   <div class="index-hero-container">
-    <div class="index-hero-card">
+    <div class="zappy-inserted-element" id="zappy-element-1777963985902-nadm5czgi" data-element-id="zappy-element-1777963985902-nadm5czgi" data-element-type="image" data-zappy-newly-inserted="true" style="max-width: 405px; margin-left: auto; margin-right: auto; margin-top: 20px !important; margin-bottom: 20px !important;"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIwIiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDMyMCAxODAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjMyMCIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFOEU4RTgiLz48cmVjdCB4PSIzMCIgeT0iMTUiIHdpZHRoPSIyNjAiIGhlaWdodD0iMTUwIiByeD0iNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjOUU5RTlFIiBzdHJva2Utd2lkdGg9IjQiLz48Y2lyY2xlIGN4PSI3NSIgY3k9IjUwIiByPSIxNSIgZmlsbD0iIzlFOUU5RSIvPjxwYXRoIGQ9Ik03NSAxMDAgTDEwNSA3MCBMMTM1IDkwIEwxNTAgNzUgTDE4MCA5MCBMMjI1IDUwIEwyNzUgODAgTDI3NSAxNTAgTDQ1IDE1MCBMNDUgMTE1IFoiIGZpbGw9IiNCMEIwQjAiLz48cGF0aCBkPSJNMTM1IDkwIEwxNTAgNzUgTDE4MCA5MCBMMjI1IDUwIEwyNzUgODAgTDI3NSAxNTAgTDEzNSAxNTAgWiIgZmlsbD0iIzlFOUU5RSIvPjwvc3ZnPg==" alt="Image" style="width: 100%; height: 180px; border-radius: 8px; max-width: 100%; object-fit: cover; margin-top: 20px; margin-bottom: 20px; object-position: 50% 50%; display: block; margin-right: auto !important; margin-left: auto !important;" data-element-type="image" data-element-id="zappy-element-1777963985902-nadm5czgi" id="zappy-element-1777963985902-nadm5czgi"></div><div class="index-hero-card">
       <!-- Proof line -->
       <div class="index-hero-proof-line">
         <span class="index-hero-proof-icon" aria-hidden="true">
