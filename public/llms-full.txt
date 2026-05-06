@@ -2,13 +2,13 @@
 
 A mechanical engineering company specializing in the design of machines and integrated control systems, offering end-to-end smart mechanical solutions — from initial concept through to the final product. The company bridges creative engineering thinking with practical execution, delivering intelligent, custom-built mechanical systems for industrial or technical clients.
 
-Source: https://galiltechnologies.zappy5.app
+Source: https://galilt.com
 
 ---
 
 ## גליל טכנולוגיות — גליל טכנולוגיות
 
-URL: https://galiltechnologies.zappy5.app
+URL: https://galilt.com
 Description: גליל טכנולוגיות מתכננת מכונות תעשייתיות ומערכות בקרה משולבות מקצה לקצה. פתרונות מכניים חכמים, מותאמים אישית, מהרעיון ועד למוצר הסופי. גלו איך אנחנו הופכים חזון הנדסי למציאות.
 
 גליל טכנולוגיות — גליל טכנולוגיות
@@ -312,7 +312,7 @@ PDR ( Review Design Preliminary ) בסקר זה מבוצעת תצוגה של ת�
 
 ## בואו נתכנן יחד את הפתרון הבא שלכם — גליל טכנולוגיות
 
-URL: https://galiltechnologies.zappy5.app/contact
+URL: https://galilt.com/contact
 Description: יש לכם אתגר הנדסי? צוות המומחים של גליל טכנולוגיות כאן בשבילכם. צרו קשר עוד היום לייעוץ ראשוני ללא התחייבות ונתחיל לתכנן יחד את מערכת האוטומציה או המכונה התעשייתית שתשנה את העסק שלכם.
 
 בואו נתכנן יחד את הפתרון הבא שלכם — גליל טכנולוגיות
@@ -696,7 +696,7 @@ meir@galilt.com
 
 ## מדיניות פרטיות
 
-URL: https://galiltechnologies.zappy5.app/privacy
+URL: https://galilt.com/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -882,7 +882,7 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 ## הצהרת נגישות
 
-URL: https://galiltechnologies.zappy5.app/accessibility
+URL: https://galilt.com/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -1077,7 +1077,7 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 ## תנאי שימוש
 
-URL: https://galiltechnologies.zappy5.app/terms
+URL: https://galilt.com/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
@@ -1291,7 +1291,7 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 ## גלריית פרויקטים ותהליכי ייצור
 
-URL: https://galiltechnologies.zappy5.app/rmf-filtration-systems
+URL: https://galilt.com/rmf-filtration-systems
 Description: גליל טכנולוגיות - גלריית פרויקטים ותהליכי ייצור
 
 מערכות סינון RMF
@@ -1671,7 +1671,7 @@ Description: גליל טכנולוגיות - גלריית פרויקטים ות�
 
 ## גלריית תחומי עבודה ופרויקטים
 
-URL: https://galiltechnologies.zappy5.app/gallery-topics
+URL: https://galilt.com/gallery-topics
 Description: גליל טכנולוגיות - גלריית תחומי עבודה ופרויקטים
 
 גלריית תחומי עבודה ופרויקטים

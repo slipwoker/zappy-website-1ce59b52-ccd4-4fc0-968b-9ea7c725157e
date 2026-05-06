@@ -7,33 +7,33 @@
 ## Pages
 
 ### בית
-https://galiltechnologies.zappy5.app
+https://galilt.com
 גליל טכנולוגיות מתכננת מכונות תעשייתיות ומערכות בקרה משולבות מקצה לקצה. פתרונות מכניים חכמים, מותאמים אישית, מהרעיון ועד למוצר הסופי. גלו איך אנחנו הופכים חזון הנדסי למציאות.
 
 ### צור קשר
-https://galiltechnologies.zappy5.app/contact
+https://galilt.com/contact
 יש לכם אתגר הנדסי? צוות המומחים של גליל טכנולוגיות כאן בשבילכם. צרו קשר עוד היום לייעוץ ראשוני ללא התחייבות ונתחיל לתכנן יחד את מערכת האוטומציה או המכונה התעשייתית שתשנה את העסק שלכם.
 
 ### מערכות סינון RMF
-https://galiltechnologies.zappy5.app/rmf-filtration-systems
+https://galilt.com/rmf-filtration-systems
 גליל טכנולוגיות - גלריית פרויקטים ותהליכי ייצור
 
 ### גלריית תחומי עבודה ופרויקטים
-https://galiltechnologies.zappy5.app/gallery-topics
+https://galilt.com/gallery-topics
 גליל טכנולוגיות - גלריית תחומי עבודה ופרויקטים
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://galiltechnologies.zappy5.app/privacy
+https://galilt.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://galiltechnologies.zappy5.app/terms
+https://galilt.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://galiltechnologies.zappy5.app/accessibility
+https://galilt.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -46,8 +46,8 @@ Information about WCAG compliance and accessibility features.
 - Address: מפעלים אזוריים גרנות
 
 ### Contact form
-- URL: https://galiltechnologies.zappy5.app/contact
-- Endpoint: https://galiltechnologies.zappy5.app/api/email/contact-form
+- URL: https://galilt.com/contact
+- Endpoint: https://galilt.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -83,6 +83,6 @@ A mechanical engineering company specializing in the design of machines and inte
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://galiltechnologies.zappy5.app/sitemap.xml
-- Robots: https://galiltechnologies.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://galiltechnologies.zappy5.app/llms-full.txt
+- Sitemap (XML): https://galilt.com/sitemap.xml
+- Robots: https://galilt.com/robots.txt
+- Flattened page text (for LLMs): https://galilt.com/llms-full.txt
